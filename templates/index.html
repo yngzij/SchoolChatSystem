@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block body %}
+  <div class="intro-text">
+      <p>嘿！陌生人，很想对你说，</p>
+      <p>「 圣诞节快乐 ！」</p>
+  </div>
+
+<div class="gender-picker">
+            <div class="gender-male icomoon-mars icomoon-4x">
+                <div class="gender-text">
+                    游戏
+                </div>
+            </div>
+            <div class="gender-male icomoon-venus icomoon-4x">
+                <div class="gender-text">
+                    吐槽
+                </div>
+            </div>
+    <div class="start-chat">
+        <p>
+        <a href="/chat" class="button button-big">{{_("开始进入")}}
+        </a>
+        </p>
+</div>
+{% end %}
+
